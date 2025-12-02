@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: #e5e5e5;
+}
+/* Custom Scrollbar - Red & Black */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+/* Efeito de brilho vermelho sutil em elementos focados */
+.glow-red {
+  box-shadow: 0 0 15px rgba(220, 38, 38, 0.3);
+}
